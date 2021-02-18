@@ -10,6 +10,8 @@ I have already developed solutions for important business problems such as detec
 
 The details of each solution are described in data science project section.
 
+<br>
+
 ## Data Science Projects
 
 - ### [Transaction Fraud Detection](https://github.com/juniorcl/transaction-fraud-detection)
