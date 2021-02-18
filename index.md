@@ -1,6 +1,6 @@
 ## Hi there! I'm Clébio Oliveira Júnior.
 
-<h3 align="center"><i>Physics Teacher and Data Scientist</i></h3>
+<h3><i>Physics Teacher and Data Scientist</i></h3>
 
 I'm physics teacher and data scientist. I have master's degress in natural science period during which I developed my research using Python for data analysis and data processing. 
 
