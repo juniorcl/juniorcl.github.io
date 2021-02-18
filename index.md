@@ -69,7 +69,7 @@ The details of each solution are described in data science project section.
 </a>&nbsp;&nbsp;
 
 <a href="https://linktr.ee/juniorcl">
-    <img src="https://simpleicons.org/icons/linktree.svg", width="8%", alt="linktree">
+    <img src="https://simpleicons.org/icons/linktree.svg", width="8%" alt="linktree">
 </a>
 
 </div>
