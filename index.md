@@ -16,19 +16,19 @@ The details of each solution are described in data science project section.
 
 - ### [Transaction Fraud Detection](https://github.com/juniorcl/transaction-fraud-detection)
 
-Bank transaction frauds is one of the most problem for bank operations. So this project uses a data science and machine learning to avoid these kind of transaction. The model got a precision of 0.963 +/- 0.007 and recall 0.763 +/- 0.035. The profit expected by the company is R$ 57,251,574.44.
+    Bank transaction frauds is one of the most problem for bank operations. So this project uses a data science and machine learning to avoid these kind of transaction. The model got a precision of 0.963 +/- 0.007 and recall 0.763 +/- 0.035. The profit expected by the company is R$ 57,251,574.44.
 
 - ### [Churn Prediction](https://github.com/juniorcl/churn-prediction)
 
-When a client churns it represents a problem for the company. In this project I created a solution using data to avoid it. The machine learning model got to detect 0.765 of the client which could be churned using unseed data as example. It represents a recovere of R$ 2,878,197.97 for the company.
+    When a client churns it represents a problem for the company. In this project I created a solution using data to avoid it. The machine learning model got to detect 0.765 of the client which could be churned using unseed data as example. It represents a recovere of R$ 2,878,197.97 for the company.
 
 - ### [Cardiovascular Disease Prediction](https://github.com/juniorcl/cardiovascular-disease-prediction)
 
-Cardio Catch Dicease is a company especialized in detecting heart disease in early stages. For every 5% to more than 50% in the prediction, there's an increase of R$ 500.00. So, this data science project created a model that recognizes of 0.718 +/- 0.005 and the profit using the model may be about R$ 11,285,500.00.
+    Cardio Catch Dicease is a company especialized in detecting heart disease in early stages. For every 5% to more than 50% in the prediction, there's an increase of R$ 500.00. So, this data science project created a model that recognizes of 0.718 +/- 0.005 and the profit using the model may be about R$ 11,285,500.00.
 
 - ### [Rossman Store Sales](https://github.com/juniorcl/rossman-store-sales)
 
-To idealize a new strategy of investiments in each sale may be difficult. Therefore, to help the stack holders to make decisions about investiments in each sale. This project of data science created a machine learning model to predict the sales for up to six weeks in advance.
+    To idealize a new strategy of investiments in each sale may be difficult. Therefore, to help the stack holders to make decisions about investiments in each sale. This project of data science created a machine learning model to predict the sales for up to six weeks in advance.
 
 <br>
 
