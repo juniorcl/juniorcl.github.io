@@ -36,35 +36,35 @@ The details of each solution are described in data science project section.
 
 <div align="center">
 
-<a href="www.linkedin.com/in/clebiojunior">
+<a href="https://www.linkedin.com/in/clebiojunior">
     <img src="https://simpleicons.org/icons/linkedin.svg" width="6%" alt="linkedin">
 </a>&nbsp;&nbsp;
 
-<a href="www.github.com/juniorcl">
+<a href="https://www.github.com/juniorcl">
     <img src="https://simpleicons.org/icons/github.svg" width="6%" alt="github">
 </a>&nbsp;&nbsp;
 
-<a href="www.kaggle.com/juniorcl">
+<a href="https://www.kaggle.com/juniorcl">
     <img src="https://simpleicons.org/icons/kaggle.svg" width="6%" alt="kaggle">
-</a>
+</a>&nbsp;&nbsp;
 
-<a href="www.twitter.com/clebioojunior">
+<a href="https://www.twitter.com/clebioojunior">
     <img src="https://simpleicons.org/icons/twitter.svg" width="6%" alt="twitter">
 </a>&nbsp;&nbsp;
 
-<a href="www.medium.to/@juniorcl">
+<a href="https://www.medium.to/@juniorcl">
     <img src="https://simpleicons.org/icons/medium.svg" width="6%" alt="medium">
 </a>&nbsp;&nbsp;
 
-<a href="www.dev.to/clebioojunior">
+<a href="https://www.dev.to/clebioojunior">
     <img src="https://simpleicons.org/icons/dev-dot-to.svg" width="6%" alt="dev">
 </a>&nbsp;&nbsp;
 
-<a href="www.gitlab.com/juniorcl">
+<a href="https://www.gitlab.com/juniorcl">
     <img src="https://simpleicons.org/icons/gitlab.svg" width="6%" alt="gitlab">
 </a>&nbsp;&nbsp;
 
-<a href="mailto:clebiomojunior@gmail.com">
+<a href="https://mailto:clebiomojunior@gmail.com">
     <img src="https://simpleicons.org/icons/gmail.svg" width="6%" alt="gmail">
 </a>&nbsp;&nbsp;
 
