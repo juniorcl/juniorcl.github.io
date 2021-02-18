@@ -36,12 +36,12 @@ The details of each solution are described in data science project section.
 
 <div align="center">
 
-<a href="www.gitlab.com/juniorcl">
-    <img src="https://simpleicons.org/icons/github.svg" width="8%" alt="github">
+<a href="www.linkedin.com/in/clebiojunior">
+    <img src="https://simpleicons.org/icons/linkedin.svg" width="8%" alt="linkedin">
 </a>&nbsp;&nbsp;
 
-<a href="www.gitlab.com/juniorcl">
-    <img src="https://simpleicons.org/icons/gitlab.svg" width="8%" alt="gitlab">
+<a href="www.github.com/juniorcl">
+    <img src="https://simpleicons.org/icons/github.svg" width="8%" alt="github">
 </a>&nbsp;&nbsp;
 
 <a href="www.kaggle.com/juniorcl">
@@ -52,16 +52,24 @@ The details of each solution are described in data science project section.
     <img src="https://simpleicons.org/icons/twitter.svg" width="8%" alt="twitter">
 </a>&nbsp;&nbsp;
 
+<a href="www.medium.to/@juniorcl">
+    <img src="https://simpleicons.org/icons/medium.svg" width="8%" alt="medium">
+</a>&nbsp;&nbsp;
+
 <a href="www.dev.to/clebioojunior">
     <img src="https://simpleicons.org/icons/dev-dot-to.svg" width="8%" alt="dev">
 </a>&nbsp;&nbsp;
 
-<a href="www.dev.to/clebioojunior">
-    <img src="https://simpleicons.org/icons/medium.svg" width="8%" alt="dev">
+<a href="www.gitlab.com/juniorcl">
+    <img src="https://simpleicons.org/icons/gitlab.svg" width="8%" alt="gitlab">
 </a>&nbsp;&nbsp;
 
 <a href="mailto:clebiomojunior@gmail.com">
     <img src="https://simpleicons.org/icons/gmail.svg" width="8%" alt="gmail">
+</a>&nbsp;&nbsp;
+
+<a href="https://linktr.ee/juniorcl">
+    <img src="https://simpleicons.org/icons/linktree.svg", width="8%", alt="linktree">
 </a>
 
 </div>
