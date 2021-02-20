@@ -14,6 +14,10 @@ The details of each solution are described in data science project section.
 
 ## Data Science Projects
 
+- #### [Health Insurance Cross Sell](https://github.com/juniorcl/health-insurance-cross-sell)
+
+    Cross sell is a sales technique in which a product is offered as a complement to the product chosen by the customer. To help to select the best customers, I did this data science project that aims to create a data science model for their prediction. The model was able to correctly predict 92.1% of customers who may be interested in buying another product.
+
 - ### [Transaction Fraud Detection](https://github.com/juniorcl/transaction-fraud-detection)
 
     Bank transaction frauds is one of the most problem for bank operations. So this project uses a data science and machine learning to avoid these kind of transaction. The model got a precision of 0.963 +/- 0.007 and recall 0.763 +/- 0.035. The profit expected by the company is R$ 57,251,574.44.
