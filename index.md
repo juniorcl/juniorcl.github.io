@@ -14,7 +14,7 @@ The details of each solution are described in data science project section.
 
 ## Data Science Projects
 
-- #### [Health Insurance Cross Sell](https://github.com/juniorcl/health-insurance-cross-sell)
+- ### [Health Insurance Cross Sell](https://github.com/juniorcl/health-insurance-cross-sell)
 
     Cross sell is a sales technique in which a product is offered as a complement to the product chosen by the customer. So within a business context I created this project to help the sales team. The model was able to recognize 5,123 of 5,587 customers interested in health insurance. If each customer pays R\$ 1,000.00 per year, the model may revenue R\$ 51,230.00.
 
