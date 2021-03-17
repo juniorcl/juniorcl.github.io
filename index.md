@@ -2,7 +2,7 @@
 
 <h3><i>Physics Teacher and Data Scientist</i></h3>
 
-I'm physics a teacher and a data scientist who loves open source programs and tools. I have master's degree in natural science period during which I developed my research using Python for data analysis and data processing. 
+I'm a physics teacher and a data scientist who loves open source programs and tools. I have master's degree in natural science period during which I developed my research using Python for data analysis and data processing. 
 
 Since then, I have studied python, data science, classic machine learning algorithms and neural networks. Therefore, I have made data science projects focused in business solutions with machine learning models.
 
