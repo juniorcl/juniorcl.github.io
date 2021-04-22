@@ -56,6 +56,10 @@ The details of each solution are described in the data science project section.
     <img src="https://simpleicons.org/icons/twitter.svg" width="6%" alt="twitter">
 </a>&nbsp;&nbsp;
 
+<a href="https://www.instagram.com/clebioojunior">
+    <img src="https://simpleicons.org/icons/instagram.svg" width="6%" alt="twitter">
+</a>&nbsp;&nbsp;
+
 <a href="https://www.medium.com/@juniorcl">
     <img src="https://simpleicons.org/icons/medium.svg" width="6%" alt="medium">
 </a>&nbsp;&nbsp;
