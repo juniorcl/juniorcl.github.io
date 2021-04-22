@@ -1,4 +1,4 @@
-## Hi there! I'm Clébio Oliveira Júnior
+## Hi there! I'm Clébio de Oliveira Júnior
 
 <h3><i>Physics Teacher and Data Scientist</i></h3>
 
