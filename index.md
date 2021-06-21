@@ -40,40 +40,13 @@ The details of each solution are described in the data science project section.
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/clebiojunior">
-    <img src="https://simpleicons.org/icons/linkedin.svg" width="6%" alt="linkedin">
-</a>&nbsp;&nbsp;
-
-<a href="https://www.github.com/juniorcl">
-    <img src="https://simpleicons.org/icons/github.svg" width="6%" alt="github">
-</a>&nbsp;&nbsp;
-
-<a href="https://www.kaggle.com/juniorcl">
-    <img src="https://simpleicons.org/icons/kaggle.svg" width="6%" alt="kaggle">
-</a>&nbsp;&nbsp;
-
-<a href="https://www.twitter.com/clebioojunior">
-    <img src="https://simpleicons.org/icons/twitter.svg" width="6%" alt="twitter">
-</a>&nbsp;&nbsp;
-
-<a href="https://www.instagram.com/clebioojunior">
-    <img src="https://simpleicons.org/icons/instagram.svg" width="6%" alt="twitter">
-</a>&nbsp;&nbsp;
-
-<a href="https://www.medium.com/@juniorcl">
-    <img src="https://simpleicons.org/icons/medium.svg" width="6%" alt="medium">
-</a>&nbsp;&nbsp;
-
-<a href="https://www.dev.to/juniorcl">
-    <img src="https://simpleicons.org/icons/dev-dot-to.svg" width="6%" alt="dev">
-</a>&nbsp;&nbsp;
-
-<a href="https://www.gitlab.com/juniorcl">
-    <img src="https://simpleicons.org/icons/gitlab.svg" width="6%" alt="gitlab">
-</a>&nbsp;&nbsp;
-
-<a href="https://mailto:clebiomojunior@gmail.com">
-    <img src="https://simpleicons.org/icons/gmail.svg" width="6%" alt="gmail">
-</a>&nbsp;&nbsp;
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/clebiojunior/)&nbsp;&nbsp;
+[![Medium Badge](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://www.medium.com/@juniorcl)&nbsp;&nbsp;
+[![DEV Badge](https://img.shields.io/badge/DEV-0A0A0A?style=flat&logo=dev.to&logoColor=white)](https://www.dev.to/juniorcl/)&nbsp;&nbsp;
+[![Kaggle Badge](https://img.shields.io/badge/-Kaggle-23BFFF?style=flat&logo=Kaggle&logoColor=white)](https://www.kaggle.com/juniorcl)&nbsp;&nbsp;
+[![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://www.twitter.com/clebioojunior)&nbsp;&nbsp;
+[![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/clebioojunior)&nbsp;&nbsp;
+[![GitLab Badge](https://img.shields.io/badge/GitLab-330F63?style=flat&logo=gitlab&logoColor=white)](https://www.gitlab.com/juniorcl/)&nbsp;&nbsp;
+[![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white&link=mailto:clebiomojunior@gmail.com)](mailto:clebiomojunior@gmail.com)&nbsp;&nbsp;
 
 </div>
