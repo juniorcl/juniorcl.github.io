@@ -39,7 +39,8 @@ The details of each solution are described in the data science project section.
 ### Contact me:
 
 <div align="center">
-    
+
+<a href="https://www.github.com/juniorcl"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub"></a>&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/clebiojunior/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="Linkedin"></a>&nbsp;&nbsp;
 <a href="https://www.medium.com/@juniorcl"><img src="https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white" alt="Medium"></a>&nbsp;&nbsp;
 <a href="https://www.dev.to/juniorcl/"><img src="https://img.shields.io/badge/DEV-0A0A0A?style=flat&logo=dev.to&logoColor=white" alt="DEV"></a>&nbsp;&nbsp;
