@@ -34,6 +34,8 @@ The details of each solution are described in the data science project section.
 
     To ideate a new strategy of investments in for each sale store may be difficult. Therefore, to help the stack holders to make decisions about individual investments for each and every store in the chain, this data science project created a machine learning model able to predict the sales up to six weeks in advance. Hence, enabling them to calculate the profit per store and the amount of money available to invest.
 
+<br>
+
 ## Data Engineering Projects
 
 - ### [Bookclub Data Storing](https://github.com/juniorcl/bookclub-data-storing)
