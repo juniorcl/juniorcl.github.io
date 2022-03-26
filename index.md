@@ -4,15 +4,15 @@
 
 I'm a physics teacher and a data scientist who loves open source programs and tools. I have master's degree in natural science period during which I developed my research using Python for data analysis and data processing. 
 
-Since then, I have studied python, data science, classic machine learning algorithms and neural networks. Therefore, I have made data science projects focused in business solutions with machine learning models.
-
-I have already developed solutions for important problems such as algorithms able to detect fraud in transactions, classify early cases of cardiovascular diseases, identify customers in churn and prioritize customers for cross-selling.
-
-The details of each solution are described in the data science project section.
+Since then, I have studied and, more recently, worked with python, data science and machine learning algorithms focused in business solutions. For more details about my projects and each solution, they are described in the data science project section.
 
 <br>
 
 ## Data Science Projects
+
+* ### [Airbnb Scheduling Forecast](https://github.com/juniorcl/airbnb-scheduling-forecast)
+
+    To help the booking of the Airbnb this data science project aim to create a machine learning model to predict the first booking of a new user. Unfortunately the database is very desbalanced which difficult the prediction of the model, the best result was 17.48% +/- 0.4% of accuracy. Therefore new approaches guided by the business will be necessary to improve the results.
 
 - ### [Health Insurance Cross Sell](https://github.com/juniorcl/health-insurance-cross-sell)
 
