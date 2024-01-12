@@ -53,9 +53,9 @@ Since then, I have studied and, more recently, worked with python, data science 
 <a href="https://www.medium.com/@juniorcl"><img src="https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white" alt="Medium"></a>&nbsp;&nbsp;
 <a href="https://www.dev.to/juniorcl/"><img src="https://img.shields.io/badge/DEV-0A0A0A?style=flat&logo=dev.to&logoColor=white" alt="DEV"></a>&nbsp;&nbsp;
 <a href="https://www.kaggle.com/juniorcl"><img src="https://img.shields.io/badge/-Kaggle-23BFFF?style=flat&logo=Kaggle&logoColor=white" alt="Kaggle"></a>&nbsp;&nbsp;
-<a href="https://www.twitter.com/clebioojunior"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" alt="Twitter"></a>&nbsp;&nbsp;
-<a href="https://www.instagram.com/clebioojunior"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram"></a>&nbsp;&nbsp;
 <a href="https://www.gitlab.com/juniorcl/"><img src="https://img.shields.io/badge/GitLab-330F63?style=flat&logo=gitlab&logoColor=white" alt="GitLab"></a>&nbsp;&nbsp;
 <a href="mailto:clebiomojunior@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white&link=mailto:clebiomojunior@gmail.com" alt="Gmail"></a>&nbsp;&nbsp;
+<!-- <a href="https://www.twitter.com/clebioojunior"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" alt="Twitter"></a>&nbsp;&nbsp; -->
+<!-- <a href="https://www.instagram.com/clebioojunior"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram"></a>&nbsp;&nbsp; -->
 
 </div>
