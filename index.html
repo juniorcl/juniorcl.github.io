@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Clébio Júnior — Cientista de Dados</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .language-selector {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 100;
+      display: flex;
+      gap: 5px;
+      background: white;
+      padding: 8px;
+      border-radius: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .lang-btn {
+      background: white;
+      border: 1px solid #e2e8f0;
+      padding: 6px 15px;
+      cursor: pointer;
+      border-radius: 20px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    .lang-btn.active {
+      background: #3b82f6;
+      color: white;
+      border-color: #3b82f6;
+    }
+    .download-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #3b82f6;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      margin-top: 15px;
+      text-decoration: none;
+    }
+    .download-btn:hover {
+      background: #2563eb;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(37, 99, 235, 0.2);
+    }
+    .download-container {
+      text-align: center;
+      margin: 40px auto;
+      padding: 30px;
+      background: #f8fafc;
+      border-radius: 12px;
+      border: 1px solid #e2e8f0;
+      max-width: 650px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    .download-title {
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #1e293b;
+    }
+    .download-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    section {
+      scroll-margin-top: 20px;
+    }
+    .fade-in {
+      animation: fadeIn 0.5s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .content-pt {
+      display: block;
+    }
+    .content-en {
+      display: none;
+    }
+    .social-links a {
+      transition: all 0.3s ease;
+    }
+    .social-links a:hover {
+      color: #2563eb;
+      transform: translateY(-2px);
+    }
+    .project-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    .back-to-top {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: #3b82f6;
+      color: white;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+      transition: all 0.3s ease;
+      z-index: 99;
+    }
+    .back-to-top:hover {
+      background: #2563eb;
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans text-gray-800">
+
+  <!-- Seletor de Idioma -->
+  <div class="language-selector">
+    <button id="pt-btn" class="lang-btn active">Português</button>
+    <button id="en-btn" class="lang-btn">English</button>
+  </div>
+
+  <!-- Botão Voltar ao Topo -->
+  <a href="#" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- Conteúdo em Português -->
+  <div id="content-pt" class="content-pt">
+    <!-- Header -->
+    <header class="bg-white shadow p-8 text-center">
+      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Foto de Clébio Júnior" class="w-32 h-32 mx-auto rounded-full shadow-lg object-cover">
+      <h1 class="text-3xl font-bold mt-4">Clébio Júnior</h1>
+      <p class="text-lg text-gray-600">Cientista de Dados</p>
+      <div class="mt-3 flex justify-center space-x-6 social-links">
+        <a href="https://github.com/juniorcl" target="_blank" class="text-blue-600 hover:underline"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://medium.com/@juniorcl" target="_blank" class="text-blue-600 hover:underline"><i class="fab fa-medium"></i> Blog</a>
+        <a href="https://linkedin.com/in/clebiojunior" target="_blank" class="text-blue-600 hover:underline"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="mailto:clebiojuniorcj@gmail.com" class="text-blue-600 hover:underline"><i class="fas fa-envelope"></i> E-mail</a>
+      </div>
+    </header>
+
+    <!-- Sobre Mim -->
+    <section class="max-w-3xl mx-auto mt-10 px-6">
+      <h2 class="text-2xl font-semibold border-b pb-2">Sobre Mim</h2>
+      <p class="mt-4">
+        Cientista de Dados com mais de 4 anos de experiência na aplicação de técnicas de machine learning e análise de dados para solucionar problemas de negócio com impacto real.
+      </p>
+      <p class="mt-2">
+        Atuei em projetos envolvendo extração e processamento de dados estruturados e não estruturados, modelagem preditiva para score de crédito e previsão de vendas, identificação de anomalías e análise de comportamento de clientes.
+      </p>
+      <p class="mt-2">
+        Tenho experiência com scikit-learn, spaCy, pdfplumber, pytesseract e pandas, além de técnicas como NLP, clusterização e modelagem supervisionada.
+      </p>
+      <p class="mt-2">
+        Sigo em constante evolução por meio de estudos, projetos pessoais e produção de conteúdo técnico.
+      </p>
+    </section>
+
+    <!-- Experiência -->
+    <section class="max-w-3xl mx-auto mt-10 px-6">
+      <h2 class="text-2xl font-semibold border-b pb-2">Experiência</h2>
+
+      <div class="mt-6">
+        <h3 class="text-xl font-bold">Vert Analytics</h3>
+        <p class="text-gray-600">Cientista de Dados | Out 2024 – Atual (Remoto)</p>
+        <ul class="list-disc list-inside mt-2 text-gray-700">
+          <li>Extração de informações em PDFs com <strong>pdfplumber</strong>, <strong>Tesseract OCR</strong> e regex.</li>
+          <li>Construção de dashboards interativos em <strong>SAS</strong> para análise temporal.</li>
+          <li>Análise de comentários em redes sociais com <strong>NLP</strong> (spaCy, tokenização, lematização).</li>
+        </ul>
+      </div>
+
+      <div class="mt-6">
+        <h3 class="text-xl font-bold">Datarisk</h3>
+        <p class="text-gray-600">Cientista de Dados | Jan 2022 – Ago 2024 (Remoto)</p>
+        <ul class="list-disc list-inside mt-2 text-gray-700">
+          <li>Modelagem de <strong>score de crédito</strong> com machine learning.</li>
+          <li><strong>Previsão de vendas</strong> com regressão em séries históricas.</li>
+          <li><strong>Clusterização</strong> para segmentação de clientes.</li>
+          <li>Modelos preditivos de comportamento do cliente (churn, inadimplência, upgrade de plano).</li>
+        </ul>
+      </div>
+
+      <div class="mt-6">
+        <h3 class="text-xl font-bold">Be.X!</h3>
+        <p class="text-gray-600">Cientista de Dados | Mar 2021 – Jan 2022 (Remoto)</p>
+        <ul class="list-disc list-inside mt-2 text-gray-700">
+          <li>Tratamento de textos com regex para extração de informações relevantes.</li>
+          <li>Identificação de <strong>outliers</strong> com regras de negócio.</li>
+          <li>Modelo preditivo para <strong>atrasos em entregas</strong> logísticas.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Formação Acadêmica -->
+    <section class="max-w-3xl mx-auto mt-10 px-6">
+      <h2 class="text-2xl font-semibold border-b pb-2">Formação Acadêmica</h2>
+      <ul class="mt-4 space-y-3 text-gray-700">
+        <li>
+          <strong>Mestrado em Ciências Naturais (Ciências Ambientales)</strong> — UENF (2017 – 2019)<br>
+          Projeto: desenvolvimento em Python de um protótipo de lock-in virtual para uso em Fotoacústica.
+        </li>
+        <li>
+          <strong>Graduação em Ciências da Natureza — Licenciatura em Física</strong> — IFF (2010 – 2016)<br>
+          Bolsista PET e Iniciação Científica em Modelagem Computacional (Fortran 90).
+        </li>
+      </ul>
+    </section>
+
+    <!-- Projetos -->
+    <section class="max-w-5xl mx-auto mt-10 px-6">
+      <h2 class="text-2xl font-semibold border-b pb-2">Projetos</h2>
+      <div class="grid md:grid-cols-2 gap-6 mt-4">
+
+        <div class="bg-white p-6 shadow rounded-lg project-card">
+          <h3 class="font-bold text-lg">Portfólio</h3>
+          <p class="text-gray-600 text-sm mt-2">Repositório com projetos de ciência de dados aplicados a problemas reais.</p>
+          <a href="https://juniorcl.github.io" target="_blank" class="text-blue-600 hover:underline text-sm mt-2 inline-block">🔗 Acessar Portfólio</a>
+        </div>
+
+        <div class="bg-white p-6 shadow rounded-lg project-card">
+          <h3 class="font-bold text-lg">Classificação de Textos</h3>
+          <p class="text-gray-600 text-sm mt-2">Modelo NLP para análise e classificação de comentários em redes sociais.</p>
+          <a href="https://github.com/juniorcl" target="_blank" class="text-blue-600 hover:underline text-sm mt-2 inline-block">🔗 Ver no GitHub</a>
+        </div>
+
+        <div class="bg-white p-6 shadow rounded-lg project-card">
+          <h3 class="font-bold text-lg">Previsão de Vendas</h3>
+          <p class="text-gray-600 text-sm mt-2">Modelos de regressão aplicados a dados históricos para planejamento comercial.</p>
+          <a href="https://github.com/juniorcl" target="_blank" class="text-blue-600 hover:underline text-sm mt-2 inline-block">🔗 Ver no GitHub</a>
+        </div>
+
+        <div class="bg-white p-6 shadow rounded-lg project-card">
+          <h3 class="font-bold text-lg">Análise de Sentimentos</h3>
+          <p class="text-gray-600 text-sm mt-2">Sistema de análise de sentimentos em avaliações de produtos.</p>
+          <a href="https://github.com/juniorcl" target="_blank" class="text-blue-600 hover:underline text-sm mt-2 inline-block">🔗 Ver no GitHub</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Área de Download de Currículo (AGORA NO FINAL) -->
+    <div class="download-container">
+      <h2 class="download-title">Baixar Currículo em PDF</h2>
+      <p class="text-gray-600 mb-6">Faça download da versão completa do meu currículo para visualização offline</p>
+      <div class="download-buttons">
+        <a href="https://github.com/juniorcl/resume/raw/main/resume_portuguese.pdf" download class="download-btn">
+          <i class="fas fa-download"></i> Versão em Português
+        </a>
+        <a href="https://github.com/juniorcl/resume/raw/main/resume_english.pdf" download class="download-btn">
+          <i class="fas fa-download"></i> Versão em Inglês
+        </a>
+      </div>
+    </div>
+
+    <!-- Contato -->
+    <footer class="bg-white shadow mt-12 p-6 text-center">
+      <p class="text-gray-700">&copy; 2025 Clébio Júnior — Todos os direitos reservados</p>
+      <p class="mt-2">
+        <a href="mailto:clebiojuniorcj@gmail.com" class="text-blue-600 hover:underline">📧 Entre em contato</a>
+      </p>
+    </footer>
+  </div>
+
+  <!-- Conteúdo em Inglês -->
+  <div id="content-en" class="content-en">
+    <!-- Header -->
+    <header class="bg-white shadow p-8 text-center">
+      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Clébio Júnior's photo" class="w-32 h-32 mx-auto rounded-full shadow-lg object-cover">
+      <h1 class="text-3xl font-bold mt-4">Clébio Júnior</h1>
+      <p class="text-lg text-gray-600">Data Scientist</p>
+      <div class="mt-3 flex justify-center space-x-6 social-links">
+        <a href="https://github.com/juniorcl" target="_blank" class="text-blue-600 hover:underline"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://medium.com/@juniorcl" target="_blank" class="text-blue-600 hover:underline"><i class="fab fa-medium"></i> Blog</a>
+        <a href="https://linkedin.com/in/clebiojunior" target="_blank" class="text-blue-600 hover:underline"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="mailto:clebiojuniorcj@gmail.com" class="text-blue-600 hover:underline"><i class="fas fa-envelope"></i> Email</a>
+      </div>
+    </header>
+
+    <!-- About Me in English -->
+    <section class="max-w-3xl mx-auto mt-10 px-6">
+      <h2 class="text-2xl font-semibold border-b pb-2">About Me</h2>
+      <p class="mt-4">
+        Data Scientist with over 4 years of experience applying machine learning techniques and data analysis to solve business problems with real impact.
+      </p>
+      <p class="mt-2">
+        I have worked on projects involving extraction and processing of structured and unstructured data, predictive modeling for credit scoring and sales forecasting, anomaly detection, and customer behavior analysis.
+      </p>
+      <p class="mt-2">
+        I have experience with scikit-learn, spaCy, pdfplumber, pytesseract, and pandas, as well as techniques such as NLP, clustering, and supervised modeling.
+      </p>
+      <p class="mt-2">
+        I am constantly evolving through studies, personal projects, and production of technical content.
+      </p>
+    </section>
+
+    <!-- Experience in English -->
+    <section class="max-w-3xl mx-auto mt-10 px-6">
+      <h2 class="text-2xl font-semibold border-b pb-2">Experience</h2>
+
+      <div class="mt-6">
+        <h3 class="text-xl font-bold">Vert Analytics</h3>
+        <p class="text-gray-600">Data Scientist | Oct 2024 – Present (Remote)</p>
+        <ul class="list-disc list-inside mt-2 text-gray-700">
+          <li>Information extraction from PDFs using <strong>pdfplumber</strong>, <strong>Tesseract OCR</strong> and regex.</li>
+          <li>Building interactive dashboards in <strong>SAS</strong> for temporal analysis.</li>
+          <li>Analysis of social media comments with <strong>NLP</strong> (spaCy, tokenization, lemmatization).</li>
+        </ul>
+      </div>
+
+      <div class="mt-6">
+        <h3 class="text-xl font-bold">Datarisk</h3>
+        <p class="text-gray-600">Data Scientist | Jan 2022 – Aug 2024 (Remote)</p>
+        <ul class="list-disc list-inside mt-2 text-gray-700">
+          <li><strong>Credit scoring</strong> modeling with machine learning.</li>
+          <li><strong>Sales forecasting</strong> with regression on historical series.</li>
+          <li><strong>Clustering</strong> for customer segmentation.</li>
+          <li>Predictive models of customer behavior (churn, default, plan upgrade).</li>
+        </ul>
+      </div>
+
+      <div class="mt-6">
+        <h3 class="text-xl font-bold">Be.X!</h3>
+        <p class="text-gray-600">Data Scientist | Mar 2021 – Jan 2022 (Remote)</p>
+        <ul class="list-disc list-inside mt-2 text-gray-700">
+          <li>Text processing with regex for extraction of relevant information.</li>
+          <li>Identification of <strong>outliers</strong> with business rules.</li>
+          <li>Predictive model for <strong>delivery delays</strong> in logistics.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Education in English -->
+    <section class="max-w-3xl mx-auto mt-10 px-6">
+      <h2 class="text-2xl font-semibold border-b pb-2">Education</h2>
+      <ul class="mt-4 space-y-3 text-gray-700">
+        <li>
+          <strong>Master's in Natural Sciences (Environmental Sciences)</strong> — UENF (2017 – 2019)<br>
+          Project: Development in Python of a virtual lock-in prototype for use in Photoacoustics.
+        </li>
+        <li>
+          <strong>Bachelor's in Nature Sciences — Physics Teaching Degree</strong> — IFF (2010 – 2016)<br>
+          PET scholarship holder and Scientific Initiation in Computational Modeling (Fortran 90).
+        </li>
+      </ul>
+    </section>
+
+    <!-- Projects in English -->
+    <section class="max-w-5xl mx-auto mt-10 px-6">
+      <h2 class="text-2xl font-semibold border-b pb-2">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-6 mt-4">
+
+        <div class="bg-white p-6 shadow rounded-lg project-card">
+          <h3 class="font-bold text-lg">Portfolio</h3>
+          <p class="text-gray-600 text-sm mt-2">Repository with data science projects applied to real problems.</p>
+          <a href="https://juniorcl.github.io" target="_blank" class="text-blue-600 hover:underline text-sm mt-2 inline-block">🔗 Access Portfolio</a>
+        </div>
+
+        <div class="bg-white p-6 shadow rounded-lg project-card">
+          <h3 class="font-bold text-lg">Text Classification</h3>
+          <p class="text-gray-600 text-sm mt-2">NLP model for analysis and classification of social media comments.</p>
+          <a href="https://github.com/juniorcl" target="_blank" class="text-blue-600 hover:underline text-sm mt-2 inline-block">🔗 View on GitHub</a>
+        </div>
+
+        <div class="bg-white p-6 shadow rounded-lg project-card">
+          <h3 class="font-bold text-lg">Sales Forecasting</h3>
+          <p class="text-gray-600 text-sm mt-2">Regression models applied to historical data for commercial planning.</p>
+          <a href="https://github.com/juniorcl" target="_blank" class="text-blue-600 hover:underline text-sm mt-2 inline-block">🔗 View on GitHub</a>
+        </div>
+
+        <div class="bg-white p-6 shadow rounded-lg project-card">
+          <h3 class="font-bold text-lg">Sentiment Analysis</h3>
+          <p class="text-gray-600 text-sm mt-2">Sentiment analysis system for product reviews.</p>
+          <a href="https://github.com/juniorcl" target="_blank" class="text-blue-600 hover:underline text-sm mt-2 inline-block">🔗 View on GitHub</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Download Area in English (AGORA NO FINAL) -->
+    <div class="download-container">
+      <h2 class="download-title">Download Resume in PDF</h2>
+        <p class="text-gray-600 mb-6">Download the complete version of my resume for offline viewing</p>
+      <div class="download-buttons">
+        <a href="https://github.com/juniorcl/resume/raw/main/resume_portuguese.pdf" download class="download-btn">
+          <i class="fas fa-download"></i> Portuguese Version
+        </a>
+        <a href="https://github.com/juniorcl/resume/raw/main/resume_english.pdf" download class="download-btn">
+          <i class="fas fa-download"></i> English Version
+        </a>
+      </div>
+    </div>
+
+    <!-- Contact in English -->
+    <footer class="bg-white shadow mt-12 p-6 text-center">
+      <p class="text-gray-700">&copy; 2025 Clébio Júnior — All rights reserved</p>
+      <p class="mt-2">
+        <a href="mailto:clebiojuniorcj@gmail.com" class="text-blue-600 hover:underline">📧 Contact me</a>
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const ptBtn = document.getElementById('pt-btn');
+      const enBtn = document.getElementById('en-btn');
+      const contentPt = document.getElementById('content-pt');
+      const contentEn = document.getElementById('content-en');
+      
+      // Função para trocar para Português
+      function switchToPortuguese() {
+        ptBtn.classList.add('active');
+        enBtn.classList.remove('active');
+        contentPt.style.display = 'block';
+        contentEn.style.display = 'none';
+        document.documentElement.lang = 'pt-BR';
+        document.title = "Clébio Júnior — Cientista de Dados";
+        localStorage.setItem('preferredLanguage', 'pt');
+      }
+      
+      // Função para trocar para Inglês
+      function switchToEnglish() {
+        enBtn.classList.add('active');
+        ptBtn.classList.remove('active');
+        contentEn.style.display = 'block';
+        contentPt.style.display = 'none';
+        document.documentElement.lang = 'en';
+        document.title = "Clébio Júnior — Data Scientist";
+        localStorage.setItem('preferredLanguage', 'en');
+      }
+      
+      // Event listeners para os botões
+      ptBtn.addEventListener('click', switchToPortuguese);
+      enBtn.addEventListener('click', switchToEnglish);
+      
+      // Verificar se há preferência de idioma salva
+      const savedLang = localStorage.getItem('preferredLanguage');
+      if (savedLang === 'en') {
+        switchToEnglish();
+      } else {
+        switchToPortuguese();
+      }
+
+      // Botão voltar ao topo
+      const backToTopButton = document.querySelector('.back-to-top');
+      
+      window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+          backToTopButton.style.display = 'flex';
+        } else {
+          backToTopButton.style.display = 'none';
+        }
+      });
+      
+      backToTopButton.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
